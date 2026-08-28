@@ -32,4 +32,4 @@ def encode(image_path: str, message: str, output_path: str):
 
 
 if __name__ == "__main__":
-    encode("bob.png", "SECRET MESSAGE!: NEIL IS A GOONER", "bobE.png")
+    encode("bob.png", "SECRET MESSAGE: skynet is coming... beware... ", "bobE.png")
