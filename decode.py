@@ -1,6 +1,5 @@
 from PIL import Image
 
-
 def decode(image_path: str) -> str:
     image = Image.open(image_path).convert("RGB")
     width, height = image.size
